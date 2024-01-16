@@ -3,7 +3,7 @@ from django.forms import formset_factory
 from django.test import SimpleTestCase
 
 from crispy_forms.helper import FormHelper
-from crispy_tailwind.layout import Submit
+from crispy_daisyui.layout import Submit
 
 from .forms import SampleForm, ShortCharFieldForm
 from .utils import parse_expected, parse_form
@@ -18,7 +18,7 @@ class CrispyHelperTests(SimpleTestCase):
         formset.helper = FormHelper()
         formset.helper.form_tag = False
         formset.helper.add_input(Submit("submit", "submit"))
-        formset.helper.template = "tailwind/table_inline_formset.html"
+        formset.helper.template = "daisyui/table_inline_formset.html"
         if django.VERSION < (5, 0):
             expected = "table_inline_formset/table_inline_formset_lt50.html"
         else:
@@ -38,7 +38,7 @@ class CrispyHelperTests(SimpleTestCase):
         formset = SampleFormSet(data=data, prefix="name")
         formset.helper = FormHelper()
         formset.helper.add_input(Submit("submit", "submit"))
-        formset.helper.template = "tailwind/table_inline_formset.html"
+        formset.helper.template = "daisyui/table_inline_formset.html"
         if django.VERSION < (5, 0):
             expected = "table_inline_formset/table_inline_formset_failing_lt50.html"
         else:

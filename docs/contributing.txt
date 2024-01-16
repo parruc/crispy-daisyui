@@ -2,14 +2,14 @@
 Contributing
 ============
 
-Contributions to ``crispy-tailwind`` are very welcome!
+Contributions to ``crispy-daisyui`` are very welcome!
 
 Here are some notes on how to get setup with a development environment.
 
-1. Clone the ``crispy-tailwind`` repo from GitHub.
+1. Clone the ``crispy-daisyui`` repo from GitHub.
 2. Create a new virtual environment and install the development requirements
    from ``requirements.txt``.
-3. Install ``crispy-tailwind`` as well. ::
+3. Install ``crispy-daisyui`` as well. ::
 
     pip install -e .
 
@@ -29,6 +29,6 @@ Here are some notes on how to get setup with a development environment.
 
   - Clone the ``tailwind`` branch of that project.
   - Install the dependencies.
-  - Install ``crispy-tailwind``. ::
+  - Install ``crispy-daisyui``. ::
 
-      pip install -e path/to/crispy-tailwind
+      pip install -e path/to/crispy-daisyui

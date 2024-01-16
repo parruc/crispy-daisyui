@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "crispy-tailwind"
+project = "crispy-daisyui"
 copyright = "2020, David Smith"
 author = "David Smith"
 

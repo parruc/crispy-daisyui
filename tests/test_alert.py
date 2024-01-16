@@ -3,7 +3,7 @@ from django.test import SimpleTestCase
 
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout
-from crispy_tailwind.layout import Alert
+from crispy_daisyui.layout import Alert
 
 from .forms import SampleForm
 from .utils import parse_expected, parse_form

@@ -7,7 +7,7 @@ from crispy_forms.bootstrap import FieldWithButtons, InlineCheckboxes, InlineFie
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import HTML, Column, Div, Field, Fieldset, Hidden, Layout, Row
 from crispy_forms.utils import render_crispy_form
-from crispy_tailwind.layout import Button, Reset, Submit
+from crispy_daisyui.layout import Button, Reset, Submit
 
 from .forms import (
     CharFieldForm,

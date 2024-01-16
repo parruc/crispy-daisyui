@@ -18,7 +18,7 @@ within one of three files.
 - ``crispy_forms.layout`` (``Layout`` and other standard objects)
 - ``crispy_forms.bootstrap`` (Some bootstrap objects work out of the box, so we
   will use these)
-- ``crispy_tailwind.layout`` (Customised versions for Tailwind are found here)
+- ``crispy_daisyui.layout`` (Customised versions for Tailwind are found here)
 
 Knowledge for crispy-forms ``Layout`` class is assumed. Please see
 https://django-crispy-forms.readthedocs.io/en/latest/layouts.html for further
@@ -161,7 +161,7 @@ The three layout objects which allow for prepended and appended inputs are:
   thirdly the appended text.
 
 The image below shows examples of how these are rendered with the template
-provided with ``crispy-tailwind``. If you wish to customise these then you
+provided with ``crispy-daisyui``. If you wish to customise these then you
 will need to `over ride templates`_.
 
 .. image:: img/prepended.png
@@ -170,15 +170,15 @@ will need to `over ride templates`_.
 See the ``crispy-forms`` Prepended_ docs for more information on how to use
 these fields.
 
-Note: the active argument does not have any impact on the ``crispy-tailwind``
+Note: the active argument does not have any impact on the ``crispy-daisyui``
 template pack.
 
 .. _Prepended: https://django-crispy-forms.readthedocs.io/en/latest/layouts.html?#bootstrap-layout-objects
 
-crispy_tailwind.layout
+crispy_daisyui.layout
 ======================
 
-The following layout objects can be imported from ``crispy_tailwind.layout``.
+The following layout objects can be imported from ``crispy_daisyui.layout``.
 
 Buttons
 -------

@@ -1,4 +1,4 @@
-# CHANGELOG for crispy-tailwind
+# CHANGELOG for crispy-daisyui
 
 ## Next Release (tbc)
 
@@ -20,14 +20,14 @@
 * Confirmed support for Django 3.2 (#91)
 * Dropped support for Django 3.1 (#91)
 
-See [Release Notes](https://github.com/django-crispy-forms/crispy-tailwind/milestone/5?closed=1)
+See [Release Notes](https://github.com/django-crispy-forms/crispy-daisyui/milestone/5?closed=1)
 for full change log.
 
 ## 0.4 (2021-03-22)
 * Fixed compatibility with django-crispy-forms 1.11.2 (#86)
 * Fixed field names when using formsets (#84)
 
-See [Release Notes](https://github.com/django-crispy-forms/crispy-tailwind/milestone/4?closed=1)
+See [Release Notes](https://github.com/django-crispy-forms/crispy-daisyui/milestone/4?closed=1)
 for full change log.
 
 ## 0.3 (2021-02-14)
@@ -35,7 +35,7 @@ for full change log.
 * Various documentation improvements
 * Python 3.9 (#60) and Django 3.1 (#56) support
 
-See [Release Notes](https://github.com/django-crispy-forms/crispy-tailwind/milestone/3?closed=1)
+See [Release Notes](https://github.com/django-crispy-forms/crispy-daisyui/milestone/3?closed=1)
 for full change log.
 
 ## 0.2 (2020-07-11)
@@ -47,7 +47,7 @@ for full change log.
 * Improved documentation. Docs now include details on how to use the majority
   of the core layout objects, crispy filter and add-on
 
-See [Release Notes](https://github.com/django-crispy-forms/crispy-tailwind/milestone/2?closed=1)
+See [Release Notes](https://github.com/django-crispy-forms/crispy-daisyui/milestone/2?closed=1)
 for full change log.
 
 ## 0.1 (2020-06-09)
@@ -57,5 +57,5 @@ for full change log.
 * Limited set of layout objects are also available for crispy tags, also with
   opinionated rendering.
 
-See [Release Notes](https://github.com/django-crispy-forms/crispy-tailwind/milestone/1)
+See [Release Notes](https://github.com/django-crispy-forms/crispy-daisyui/milestone/1)
 for full change log

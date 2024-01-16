@@ -1,9 +1,9 @@
-.. crispy-tailwind documentation master file, created by
+.. crispy-daisyui documentation master file, created by
    sphinx-quickstart on Sat May  2 20:32:30 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to crispy-tailwind's documentation!
+Welcome to crispy-daisyui's documentation!
 ===========================================
 
 This is a Tailwind template pack for django-crispy-forms_.

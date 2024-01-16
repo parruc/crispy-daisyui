@@ -8,7 +8,7 @@ INSTALLED_APPS = (
     "django.contrib.contenttypes",
     "django.contrib.admin",
     "crispy_forms",
-    "crispy_tailwind",
+    "crispy_daisyui",
 )
 
 DATABASES = {"default": {"ENGINE": "django.db.backends.sqlite3", "NAME": ":memory:"}}

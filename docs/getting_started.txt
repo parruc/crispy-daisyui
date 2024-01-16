@@ -7,17 +7,17 @@ Installation
 
 Install via pip. ::
 
-    pip install crispy-tailwind
+    pip install crispy-daisyui
 
 You will need to update your project's settings file to add ``crispy_forms``
-and ``crispy_tailwind`` to your project's ``INSTALLED_APPS`` setting. Also set
+and ``crispy_daisyui`` to your project's ``INSTALLED_APPS`` setting. Also set
 ``tailwind`` as an allowed template pack and as the default template pack for
 your project::
 
     INSTALLED_APPS = (
         ...
         "crispy_forms",
-        "crispy_tailwind",
+        "crispy_daisyui",
         ...
     )
 
@@ -37,7 +37,7 @@ https://noumenal.es/notes/tailwind/django-integration/
 Usage
 =====
 
-There are a number of ways you can use ``crispy-tailwind``. The method
+There are a number of ways you can use ``crispy-daisyui``. The method
 requiring the least amount of effort involves using the ``|crispy`` filter.
 This will add an opinionated `Tailwind` style to your form. If you require more
 control, you can use the ``crispy`` tags and utilise the full power of the
@@ -50,9 +50,9 @@ The ``|crispy`` filter is the method requiring the least amount of effort to
 add `Tailwind` style to your form. It avoids the complexity of ``FormHelper``,
 and it comes with an opinionated form style.
 
-1. Load the ``tailwind_filters`` in your template::
+1. Load the ``daisyui_filters`` in your template::
 
-    {% load tailwind_filters %}
+    {% load daisyui_filters %}
 
 2. Apply the ``|crispy`` filter to your form::
 
@@ -91,7 +91,7 @@ Crispy-addon
 There is a template tag called ``crispy-addon``. It can be used to render a
 single field (including label) with prepended and appended text::
 
-    {% load tailwind_field %}
+    {% load daisyui_field %}
     {% crispy_addon form.my_field prepend="$" append=".00" %}
 
 You can also prepend or append like so::

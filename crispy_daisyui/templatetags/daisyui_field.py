@@ -9,7 +9,7 @@ from django.conf import settings
 from django.template import Context, loader
 
 from crispy_forms.utils import TEMPLATE_PACK, get_template_pack
-from crispy_tailwind.tailwind import CSSContainer
+from yogaclassplanner.crispy_daisyui.crispy_daisyui.daisyui import CSSContainer
 
 register = template.Library()
 
@@ -77,10 +77,7 @@ def pairwise(iterable):
 
 
 class CrispyTailwindFieldNode(template.Node):
-    base_input = (
-        "bg-white focus:outline-none border border-gray-300 rounded-lg py-2 px-4 block w-full "
-        "appearance-none leading-normal text-gray-700"
-    )
+    base_input = ("")
 
     default_styles = {
         "text": base_input,
@@ -107,7 +104,7 @@ class CrispyTailwindFieldNode(template.Node):
         "appearance-none rounded-lg py-2 focus:outline-none mr-2",
         "splithiddendatetime": "",
         "selectdate": "",
-        "error_border": "border-red-500",
+        "error_border": "border-error",
     }
 
     default_container = CSSContainer(default_styles)
@@ -186,10 +183,10 @@ class CrispyTailwindFieldNode(template.Node):
         return str(field)
 
 
-@register.tag(name="tailwind_field")
-def tailwind_field(parser, token):
+@register.tag(name="daisyui_field")
+def daisyui_field(parser, token):
     """
-    {% tailwind_field field attrs %}
+    {% daisyui_field field attrs %}
     """
     token = token.split_contents()
     field = token.pop(1)

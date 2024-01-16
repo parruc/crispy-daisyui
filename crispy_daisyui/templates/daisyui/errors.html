@@ -1,11 +1,11 @@
 {% if form.non_field_errors %}
   <div class="alert mb-4">
     {% if form_error_title %}
-      <div class="bg-red-500 text-white font-bold rounded-t px-4 py-2">
+      <div class="bg-error text-white font-bold rounded-t px-4 py-2">
         {{ form_error_title }}
       </div>
     {% endif %}
-    <div class="border border-red-400 rounded-b bg-red-100 px-4 py-3 text-red-700">
+    <div class="border border-error rounded-b bg-error px-4 py-3 text-error-content">
       <ul>
         {{ form.non_field_errors|unordered_list }}
       </ul>

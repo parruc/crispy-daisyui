@@ -12,7 +12,7 @@ class CrispyHelperTests(SimpleTestCase):
     def test_crispy_addon(self):
         template = Template(
             """
-            {% load tailwind_field %}
+            {% load daisyui_field %}
             {% crispy_addon form.last_name prepend="$" append=".00" %}
             """
         )

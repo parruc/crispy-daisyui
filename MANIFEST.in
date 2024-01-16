@@ -1,4 +1,4 @@
 include LICENSE.txt
 include MANIFEST.in
 include README.rst
-recursive-include crispy_tailwind/templates *
+recursive-include crispy_daisyui/templates *

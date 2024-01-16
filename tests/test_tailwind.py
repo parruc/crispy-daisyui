@@ -3,7 +3,7 @@ from django.template import Context, Template
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout
 from crispy_forms.utils import render_crispy_form
-from crispy_tailwind.tailwind import CSSContainer
+from crispy_daisyui.tailwind import CSSContainer
 
 from .forms import CustomTextWidgetForm, SampleForm
 

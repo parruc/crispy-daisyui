@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "crispy-tailwind"
-description = "A tailwind package for Django Crispy Forms"
+name = "crispy-daisyui"
+description = "A Daisyui package for Django Crispy Forms"
 readme = "README.rst"
 license = {text = "MIT"}
-authors = [{name = "David Smith", email = "smithdc@gmail.com"}]
+authors = [{name = "Matteo Parrucci", email = "parruc@gmail.com"}]
 requires-python = ">=3.8"
 classifiers=[
     "Development Status :: 5 - Production/Stable",
@@ -41,12 +41,12 @@ test = [
 ]
 
 [tool.setuptools.dynamic]
-version = {attr = "crispy_tailwind.__version__"}
+version = {attr = "crispy_daisyui.__version__"}
 
 [project.urls]
-"Homepage" = "https://github.com/django-crispy-forms/crispy-tailwind"
-"Issues" = "https://github.com/django-crispy-forms/crispy-tailwind/issues"
-"Changelog" = "https://github.com/django-crispy-forms/crispy-tailwind/releases"
+"Homepage" = "https://github.com/parruc/crispy-daisyui"
+"Issues" = "https://github.com/parruc/crispy-daisyui/issues"
+"Changelog" = "https://github.com/parruc/crispy-daisyui/releases"
 
 [tool.black]
 line-length = 119

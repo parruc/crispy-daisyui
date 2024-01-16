@@ -14,7 +14,7 @@ class CrispyFilterTests(SimpleTestCase):
     def test_crispy_filter(self):
         template = Template(
             """
-            {% load tailwind_filters %}
+            {% load daisyui_filters %}
             {{ form|crispy }}
             """
         )
@@ -30,7 +30,7 @@ class CrispyFilterTests(SimpleTestCase):
     def test_error_borders(self):
         template = Template(
             """
-            {% load tailwind_filters %}
+            {% load daisyui_filters %}
             {{ form|crispy }}
             """
         )
@@ -49,7 +49,7 @@ class CrispyFilterTests(SimpleTestCase):
     def test_formset(self):
         template = Template(
             """
-            {% load tailwind_filters %}
+            {% load daisyui_filters %}
             {{ form|crispy }}
             """
         )
